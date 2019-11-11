@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `owned_vehicles` (
   `type` varchar(20) COLLATE utf8mb4_bin NOT NULL DEFAULT 'car',
   `job` varchar(20) COLLATE utf8mb4_bin NOT NULL DEFAULT '',
   `stored` tinyint(1) NOT NULL DEFAULT 0,
-  `location` longtext COLLATE utf8mb4_bin NOT NULL,
+  `location` longtext COLLATE utf8mb4_bin NOT NULL DEFAULT '{"y":-761.80609130859,"x":222.88613891602,"z":30.644124984741}',
   PRIMARY KEY (`plate`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 

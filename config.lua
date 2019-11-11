@@ -132,7 +132,7 @@ Config.AmbulancePounds = {
 -- Start of Cars
 
 Config.CarGarages = {
-	Garage_CentralLS = {
+	Garage_CentralLS = {															--[[IMPORTANT!!!!!!!!!   If you would like to remove CentralLS garage, or change the location of it, you need to put the new delete point location as the default value of location column in the owned_vehicles table in the database ]]
 		GaragePoint = { x = 215.800, y = -810.057, z = 29.727 },
 		SpawnPoint = { x = 229.700, y = -800.1149, z = 29.5722, h = 157.84 },
 		DeletePoint = { x = 223.797, y = -760.415, z = 29.646 }
